@@ -3,4 +3,6 @@
 export PREFIX_HOME="$(dirname $0)/.."
 . $PREFIX_HOME/lib/core/prefix.sh
 
-bash --rcfile <( echo prefix $@ )
+param=\'"${@}"\'
+
+bash --rcfile <( echo prefix "${param}" )
