@@ -1,2 +1,2 @@
 # bash-prefix
-Writes the first bash commands for you, just like a prefix.
+Prefix your common shell commands and never rewrite them
